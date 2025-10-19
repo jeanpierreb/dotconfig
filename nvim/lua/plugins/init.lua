@@ -12,7 +12,17 @@ return {
       require "configs.lspconfig"
     end,
   },
+  -- For `plugins.lua` users.
+  {
+    "OXY2DEV/markview.nvim",
+    lazy = false,
 
+    -- For blink.cmp's completion
+    -- source
+    -- dependencies = {
+    --     "saghen/blink.cmp"
+    -- },
+  },
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
